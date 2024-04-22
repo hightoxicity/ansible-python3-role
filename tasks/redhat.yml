@@ -30,6 +30,7 @@
           find:
             paths: /usr/bin
             patterns: "{{ python3_command }}"
+            file_type: any
           register: python3_find
           changed_when: false
 
